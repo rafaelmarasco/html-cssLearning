@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /*
+
+            SIMBOLOGIA EM CSS
+
+            SELETORES PERSONALIZADOS:
+            # = Id
+            . = Class
+            : = pseudo-class
+            :: = pseudo-element
+            > = children
+        
+        */
+
+
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: brown;
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: yellow;
+        }
+
+        a:active {
+            color: black;
+        }
+
+        a:visited{
+            color: blue;
+        }
+
+        a::after{
+            content: '[link]';
+            color: grey;
+            text-decoration: none;
+            font-weight: normal;
+
+
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li ><a href="https://hagber.itch.io" target="_blank" rel="external">Perfil no itch.io</a></li>
+        <li><a href="https://www.youtube.com/channel/UCzQyAIqNz_m8ou2_XYKybgA" target="_blank" rel="external">Canal do YouTube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank" rel="external">Site do Curso</a></li>
+
+
+    </ul>
+</body>
+</html>

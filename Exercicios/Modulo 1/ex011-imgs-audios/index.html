@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>imagem dinâmica</h1>
+    <p>Tente abrir esse site em diferentes tipos de resolução</p>
+    <picture>
+        <source media="(max-width: 1000px)" srcset="imagens/foto-p.png" type="image/png">
+        <img src="imagens/foto-m.png" alt="imagem flexivel">
+    </picture>
+    
+    <h1>Reproduzindo audios</h1>
+    <p>Vamos aprender a reproduzir audios</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/mydogishappy- Reed Mathis.mp3" type="audio/mpeg">
+        <source src="midia/mydogishappy- Reed Mathis.ogg" type="audio/ogg">
+        <source src="midia/mydogishappy- Reed Mathis.wav" type="audio/wav">
+        <p>infelizmente seu navegador não consegue reproduzir esse audio <a href="midia/mydogishappy- Reed Mathis.mp3" download="mydogishappy- Reed Mathis.mp3" type="audio/mpeg">click aqui</a> para baixar o arquivo</p>
+
+    </audio>
+    <!-- <audio src="midia/mydogishappy- Reed Mathis.mp3" autoplay controls></audio> -->
+    <!-- MP3 WAV OGG -->
+
+    <h1>Reprodoção de videos</h1>
+</body>
+</html>
